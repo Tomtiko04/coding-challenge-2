@@ -2,8 +2,7 @@
 
 ## Questions
 We're building a football betting app (soccer for my American friends �)!
-Suppose we get data from a web service about a certain game ('game' variable on
-next page). In this challenge we're gonna work with that data.
+Suppose we get data from a web service about a certain game ('game' variable on DATA). In this challenge we're gonna work with that data.
 Your tasks:
 1. Create one player array for each team (variables 'players1' and
 'players2')
@@ -27,7 +26,7 @@ operator.
 Test data for 6.: First, use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'.
 Then, call the function again with players from game.scored
 
-### Data
+### DATA
 const game = {
  team1: 'Bayern Munich',
  team2: 'Borrussia Dortmund',
