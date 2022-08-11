@@ -91,7 +91,7 @@ game, it will look like this:
  Gnarby: 1,
  Hummels: 1,
  Lewandowski: 2
-}
+};
 
 ## Question 3
 Let's continue with our football betting app! This time, we have a map called
