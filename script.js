@@ -134,3 +134,6 @@ was unfair. So remove this event from the game events log.*/
 gameEvents.delete(64);
 console.log(gameEvents);
 
+/*10.Compute and log the following string to the console: "An event happened, on
+average, every 9 minutes" (keep in mind that a game has 90 minutes)*/
+
