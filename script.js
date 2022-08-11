@@ -122,3 +122,9 @@ const scorers = {};
 for (const player of game.scored) {
   scorers[player] ? scorers[player]++ : (scorers[player] = 1);
 }
+
+//Question 3
+/*1.Create an array 'events' of the different game events that happened (no
+duplicates)*/
+const event = new Set([...gameEvents.values()]);
+console.log(event);
