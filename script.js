@@ -126,14 +126,18 @@ for (const player of game.scored) {
 //Question 3
 /*1.Create an array 'events' of the different game events that happened (no
 duplicates)*/
+
 const event = new Set([...gameEvents.values()]);
 console.log(event);
 
 /*2.After the game has finished, is was found that the yellow card from minute 64
 was unfair. So remove this event from the game events log.*/
+
 gameEvents.delete(64);
 console.log(gameEvents);
 
-/*10.Compute and log the following string to the console: "An event happened, on
+/*3.Compute and log the following string to the console: "An event happened, on
 average, every 9 minutes" (keep in mind that a game has 90 minutes)*/
 
+const time = [...gameEvents.keys()].pop();
+console.log(`An event happened, on average, every ${time/gameEvents.size} minutes`);
