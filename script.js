@@ -128,3 +128,9 @@ for (const player of game.scored) {
 duplicates)*/
 const event = new Set([...gameEvents.values()]);
 console.log(event);
+
+/*2.After the game has finished, is was found that the yellow card from minute 64
+was unfair. So remove this event from the game events log.*/
+gameEvents.delete(64);
+console.log(gameEvents);
+
